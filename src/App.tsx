@@ -1,5 +1,7 @@
 import React from "react";
 import "./App.css";
+import Project from "./components/Project";
+import { eras } from "./data/dummyData";
 
 function App() {
   return (
@@ -7,7 +9,9 @@ function App() {
       <header className="App-header">
         <h1>Hi I'm Shaughn lets go on a journey through my history as a web developer</h1>
       </header>
-      <main></main>
+      <main>
+        {/* <Project projectData={eras[0].projects[0]}/> */}
+      </main>
       <footer className="footer">
         <div className="contact-section">
           <h3>Contact Me</h3>

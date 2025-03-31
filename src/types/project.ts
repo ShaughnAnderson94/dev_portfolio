@@ -4,4 +4,5 @@ export type project = {
     technologies: string[];
     link: string;
     imageUrl: string;
+    altText: string;
   };

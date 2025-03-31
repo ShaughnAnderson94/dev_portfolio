@@ -10,6 +10,7 @@ const projects: { [key: string]: project[] } = {
       technologies: ["Next.js", "TypeScript", "Tailwind CSS", "React"],
       link: "https://github.com/username/portfolio",
       imageUrl: "/images/portfolio.png",
+      altText: "Screenshot of a personal portfolio website showcasing various projects and skills",
     },
     {
       title: "E-commerce Platform",
@@ -18,6 +19,7 @@ const projects: { [key: string]: project[] } = {
       technologies: ["React", "Node.js", "MongoDB", "Express", "Stripe"],
       link: "https://github.com/username/ecommerce",
       imageUrl: "/images/ecommerce.png",
+      altText: "User interface of an e-commerce platform displaying product listings and shopping cart",
     },
   ],
   mobileDevelopment: [
@@ -28,6 +30,7 @@ const projects: { [key: string]: project[] } = {
       technologies: ["React Native", "Firebase", "Redux", "TypeScript"],
       link: "https://github.com/username/fitness-app",
       imageUrl: "/images/fitness-app.png",
+      altText: "Mobile app interface showing workout tracking features and nutrition logging dashboard",
     },
   ],
   machineLearning: [
@@ -37,6 +40,7 @@ const projects: { [key: string]: project[] } = {
       technologies: ["Python", "TensorFlow", "OpenCV", "Flask"],
       link: "https://github.com/username/image-recognition",
       imageUrl: "/images/ml-project.png",
+      altText: "Demonstration of image recognition system identifying objects in real-time",
     },
   ],
 };
@@ -46,7 +50,7 @@ export const eras: era[] = [
     name: "Web Development Era",
     description:
       "Projects focused on building modern web applications and websites",
-    projects: projects.webDevelopment,
+    projects: projects.webDevelopment, 
   },
   {
     name: "Mobile Development Era",

@@ -1,5 +1,4 @@
 import { project } from "../types/project";
-import React from 'react'
 
 
 export default function Project({projectData}:{projectData:project}){

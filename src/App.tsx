@@ -12,7 +12,6 @@ function App() {
       </header>
       <main>
         {<Era eraData={eras[0]}/>}
-        {/* <Project projectData={eras[0].projects[0]}/> */}
       </main>
       <footer className="footer">
         <div className="contact-section">

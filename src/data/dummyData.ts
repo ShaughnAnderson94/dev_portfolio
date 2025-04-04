@@ -51,23 +51,74 @@ const projects: { [key: string]: project[] } = {
   ],
   foundersAndCoders: [
     {
-      title: "Fitness Tracking App",
+      title: "Desk Movement",
       description:
-        "Cross-platform mobile app for tracking workouts and nutrition",
-      technologies: ["React Native", "Firebase", "Redux", "TypeScript"],
-      link: "https://github.com/username/fitness-app",
+        "A demo for a website for people looking for remote work space in their area. Made as the final project for the course a website made with Next.js TypeScript and Supabase for data",
+      technologies: ["Next", "TypeScript", "SQL"],
+      link: "https://github.com/fac28/desk-mooovements",
+      imageUrl: "/site7.png",
+      altText: "A website displaying work spaces for remote workers traveling the world",
+    },
+    {
+      title: "Private Servants",
+      description:
+        "A project to learn Next. A fake store front for buying politician's. Only runs locally",
+      technologies: ["Next", "TypeScript", "SQL", "Node.js"],
+      link: "https://github.com/fac28/private-servants",
+      imageUrl: "/site9.png",
+      altText: "A e-commerce website selling politicians",
+    },
+    {
+      title: "Pet Programer",
+      description:
+        "A tomagachi like game about the life of a programer made in React",
+      technologies: ["React", "javascript" , "Node.js"],
+      link: "https://pet-programmer.netlify.app/",
+      imageUrl: "/site8.png",
+      altText: "A simple game interface where players select actions for a programer to perform",
+    },
+    {
+      title: "TechYEScracy",
+      description:
+        "A website from a fake future where policies are decided by online voting used to learn authentication",
+      technologies: ["SQL", "javascript" , "Node.js"],
+      link: "https://pet-programmer.netlify.app/",
       imageUrl: "/images/fitness-app.png",
-      altText: "Mobile app interface showing workout tracking features and nutrition logging dashboard",
+      altText: "A simple game interface where players select actions for a programer to perform",
     },
   ],
-  machineLearning: [
+  enBloc: [
     {
-      title: "Image Recognition System",
-      description: "Deep learning model for real-time image classification",
-      technologies: ["Python", "TensorFlow", "OpenCV", "Flask"],
+      title: "Kyndly",
+      description: "Ongoing open source charity project. A website for users to donate their used goods to refugees.",
+      technologies: ["Next", "TypeScript", "SQL", "Node.js"],
+      link: "https://cool-creponne-3e1272.netlify.app/",
+      imageUrl: "/site6.png",
+      altText: "A storefornt like interface for donating used goods",
+    },
+    {
+      title: "Pathways",
+      description: "A website made for the Gatsby charity group. Designed to help employers find T-level placements. Warning slow start up)",
+      technologies: ["React", "Node.js", "javascript"],
+      link: "https://pathways-front.netlify.app/",
+      imageUrl: "/site10.png",
+      altText: "A storefront like interface for donating used goods",
+    },
+    {
+      title: "ILR Tool",
+      description: "Cant make link till you have private version My first project with electron. Allows users to take their records and autmmaticly format them into a report file for the department of education ",
+      technologies: ["electron", "javascript"],
       link: "https://github.com/username/image-recognition",
-      imageUrl: "/images/ml-project.png",
-      altText: "Demonstration of image recognition system identifying objects in real-time",
+      imageUrl: "/site11.png",
+      altText: "Icon for the department of edcuation",
+    },
+    {
+      title: "Quiz Management System",
+      description: "A tool for managing quizzes in a classroom ",
+      technologies: ["Next", "TypeScript" , "SQL"],
+      link: "https://fac-quizzes.netlify.app/",
+      imageUrl: "/site12.png",
+      altText: "a digital quiz taking up",
     },
   ],
 };

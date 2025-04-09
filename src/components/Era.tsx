@@ -1,4 +1,4 @@
-import { eras } from "../data/dummyData";
+import { eras } from "../data/data";
 import { era } from "../types/era";
 import Project from "./Project";
 

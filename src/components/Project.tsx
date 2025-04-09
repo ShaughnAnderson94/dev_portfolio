@@ -11,7 +11,7 @@ return(
 <h3>
     {projectData.title}
 </h3>
-<img src={projectData.imageUrl} alt={projectData.altText} />
+<img src={projectData.imageUrl} alt={projectData.altText} className="max-w-50"/>
 <p>{projectData.description}</p>
 </a>
     </div>

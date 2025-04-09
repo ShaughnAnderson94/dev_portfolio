@@ -109,7 +109,7 @@ const projects: { [key: string]: project[] } = {
       description: "Cant make link till you have private version My first project with electron. Allows users to take their records and autmmaticly format them into a report file for the department of education ",
       technologies: ["electron", "javascript"],
       link: "https://github.com/username/image-recognition",
-      imageUrl: "/site11.jpeg",
+      imageUrl: "/site11.jpg",
       altText: "Icon for the department of edcuation",
     },
     {

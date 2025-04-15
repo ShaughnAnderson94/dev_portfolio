@@ -1,6 +1,4 @@
-import React from "react";
 import "./App.css";
-import Project from "./components/Project";
 import { eras } from "./data/data";
 import Era from "./components/Era";
 
@@ -11,6 +9,7 @@ function App() {
         <h1>Hi I'm Shaughn lets go on a journey through my history as a web developer</h1>
       </header>
       <main>
+        {/* reverse era order */}
         {eras.map((era)=> {
           return(<Era eraData={era}/>)
         })}

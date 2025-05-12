@@ -20,6 +20,8 @@ function App() {
                 <hr className="my-10 w-2/5 border-sky-500 mx-auto" />
               
               <Era eraData={era} />
+
+              {index == eras.length -1 &&    <hr className="my-8 w-2/5 border-sky-500 mx-auto" /> }
             </div>
           );
         })}

@@ -111,7 +111,7 @@ const projects: { [key: string]: project[] } = {
     {
       title: "ILR Tool",
       description:
-        "My first project with electron. Allows users to take their records and autmmaticly format them into a report file for the department of education ",
+        "My first project with electron. Allows users to take their records and automatically format them into a report file for the department of education ",
       technologies: ["electron", "javascript"],
       link: "https://github.com/ShaughnAnderson94/ILR-Tool",
       imageUrl: "/site11.jpg",
@@ -130,7 +130,7 @@ const projects: { [key: string]: project[] } = {
 
 export const eras: era[] = [
   {
-    name: "Professionalo Work",
+    name: "Professional Work",
     description:
       "Work done with enBloc a small digital agency. Includes commercial work as well as partnering with Founders and Coders to help build their infrastructure. Pathways is still in internal testing so server will need a moment to spin up. Kyndly is still in development but I have linked out to our stable version one",
     projects: projects.enBloc,

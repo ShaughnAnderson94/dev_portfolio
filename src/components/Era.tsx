@@ -7,7 +7,7 @@ export default function Era({eraData}:{eraData:era}){
   return (
     <section>
       <header>
-        <h2>{eraData.name}</h2>
+        <h2 className="text-3xl mb-8">{eraData.name}</h2>
         <p>{eraData.description}</p>
       </header>
       

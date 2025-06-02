@@ -11,7 +11,7 @@ export default function Era({eraData}:{eraData:era}){
         <p>{eraData.description}</p>
       </header>
       
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-6 place-items-center">
+      <div className="mt-8 grid grid-cols-1 md:grid-cols-2 gap-6 place-items-center">
         {eraData.projects.map((project) => (
           <Project 
             projectData={project}

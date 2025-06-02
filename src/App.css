@@ -79,3 +79,9 @@
 .contact-link i {
   font-size: 1.2rem;
 }
+
+@media (hover: hover) {
+  .hover-enabled\:opacity-100:hover {
+    opacity: 1;
+  }
+}
